@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+
+{% block main %}
+
+{% if user == null %}
+<h3>Welcome!</h3>
+<p><a href="/login">Log In</a> or <a href="/register">Register</a>
+{% else %}
+<h3>Welcome {{ user.name }}!</h3>
+{% endif %}
+<p style="text-align: center;"><img class="rounded" style="width:240px;height:240px" src="https://github.com/leexinhao/Java_experiment1/blob/main/img/logo.jpg?raw=true"></p>
+{% endblock %}

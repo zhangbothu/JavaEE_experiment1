@@ -1,0 +1,26 @@
+2021-10-30 09:26:56.193  INFO 29456 --- [main] com.cqu.lxh.client.ClientApplication     : Starting ClientApplication using Java 11.0.6 on DESKTOP-VOT0E1P with PID 29456 (C:\Users\dell\Desktop\JAVA_qiyejiyingyong\experiments\Java_experiment1\lixinhao\clientB\target\classes started by dell in C:\Users\dell\Desktop\JAVA_qiyejiyingyong\experiments\Java_experiment1\lixinhao\clientB)
+2021-10-30 09:26:56.197  INFO 29456 --- [main] com.cqu.lxh.client.ClientApplication     : No active profile set, falling back to default profiles: default
+2021-10-30 09:26:57.280  INFO 29456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-30 09:26:57.292  INFO 29456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-30 09:26:57.292  INFO 29456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-30 09:26:57.389  INFO 29456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-30 09:26:57.390  INFO 29456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+2021-10-30 09:26:57.794  INFO 29456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-30 09:26:57.805  INFO 29456 --- [main] com.cqu.lxh.client.ClientApplication     : Started ClientApplication in 2.431 seconds (JVM running for 5.924)
+2021-10-30 09:27:12.324  INFO 29456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-30 09:27:12.327  INFO 29456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-30 09:27:12.328  INFO 29456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-30 09:27:13.179  WARN 29456 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [826] milliseconds.
+2021-10-30 09:28:26.630  INFO 29656 --- [main] com.cqu.lxh.client.ClientApplicationB    : Starting ClientApplicationB using Java 11.0.6 on DESKTOP-VOT0E1P with PID 29656 (C:\Users\dell\Desktop\JAVA_qiyejiyingyong\experiments\Java_experiment1\lixinhao\clientB\target\classes started by dell in C:\Users\dell\Desktop\JAVA_qiyejiyingyong\experiments\Java_experiment1\lixinhao\clientB)
+2021-10-30 09:28:26.634  INFO 29656 --- [main] com.cqu.lxh.client.ClientApplicationB    : No active profile set, falling back to default profiles: default
+2021-10-30 09:28:27.634  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-30 09:28:27.644  INFO 29656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-30 09:28:27.645  INFO 29656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-30 09:28:27.750  INFO 29656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-30 09:28:27.750  INFO 29656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2021-10-30 09:28:28.203  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-30 09:28:28.215  INFO 29656 --- [main] com.cqu.lxh.client.ClientApplicationB    : Started ClientApplicationB in 2.373 seconds (JVM running for 4.483)
+2021-10-30 09:28:42.431  INFO 29656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-30 09:28:42.433  INFO 29656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-30 09:28:42.434  INFO 29656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-30 09:28:43.291  WARN 29656 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [830] milliseconds.

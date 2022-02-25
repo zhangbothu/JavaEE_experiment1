@@ -1,0 +1,23 @@
+server:
+  port: ${APP_PORT:8443}
+
+spring:
+  application:
+    name: ${APP_NAME:unnamed}
+  datasource:
+    url: jdbc:mysql://localhost:3306/java_qiye?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: "010099"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # HikariCP配置:
+    hikari:
+      auto-commit: false
+      connection-timeout: 3000
+      validation-timeout: 3000
+      max-lifetime: 60000
+      maximum-pool-size: 20
+      minimum-idle: 1
+
+pebble:
+  suffix:
+  cache: false
